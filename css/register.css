@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+ul ol {
+  list-style: none; }
+
+body {
+  background: #f8f8f8; }
+
+.allBox {
+  margin-left: 15%;
+  margin-right: 15%;
+  border: 1px solid gainsboro;
+  background: white; }
+
+.logo {
+  width: 100%;
+  height: 106px;
+  border-bottom: 2px orange solid; }
+  .logo a {
+    display: block;
+    float: left; }
+  .logo p {
+    text-align: center;
+    font-size: 18px;
+    float: left;
+    color: gray;
+    line-height: 105px;
+    margin-left: 10px; }
+  .logo span {
+    float: right;
+    font-size: 12px;
+    display: block;
+    margin-right: 10px;
+    margin-top: 80px; }
+
+section {
+  width: 100%;
+  background: white;
+  text-align: center;
+  padding: 100px 200px;
+  box-sizing: border-box; }
+  section p span {
+    font-size: 14px;
+    color: red; }
+  section p .error {
+    opacity: 0; }
+  section .inputs {
+    width: 400px;
+    height: 40px;
+    border: 1px solid gainsboro;
+    margin: 7px 140px;
+    overflow: hidden;
+    position: relative; }
+    section .inputs span {
+      display: block;
+      float: right;
+      line-height: 40px;
+      margin-right: 10px;
+      color: greenyellow;
+      display: none; }
+    section .inputs .rights {
+      display: block;
+      float: right;
+      line-height: 40px;
+      margin-right: 110px;
+      display: none; }
+    section .inputs input {
+      border: none;
+      float: left;
+      margin-left: 20px;
+      line-height: 45px;
+      outline: none; }
+    section .inputs #randoms {
+      height: 40px;
+      width: 100px;
+      font-size: 12px;
+      position: absolute;
+      right: -1px;
+      top: 0;
+      color: gray; }
+    section .inputs label {
+      float: left;
+      font-size: 14px;
+      line-height: 40px;
+      margin-left: 10px; }
+  section #advtisment {
+    border: none;
+    text-align: center; }
+    section #advtisment input {
+      margin-right: -34px;
+      margin-top: 8px;
+      border: none;
+      margin-left: 0px; }
+    section #advtisment a {
+      font-size: 10px;
+      color: gray;
+      float: left;
+      margin-left: 15px;
+      margin-top: 7px; }
+  section .lastinpt {
+    width: 400px;
+    height: 40px;
+    background: orange;
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin-left: 10px; }
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px; }
+  footer .footerlistTop a, footer .footerlistCen a {
+    color: black; }
+  footer .footerlistTop, footer .footerlistCen, footer .footerlistBto, footer p {
+    margin-bottom: 10px; }
+    footer .footerlistTop a, footer .footerlistCen a, footer .footerlistBto a, footer p a {
+      margin: 0 5px; }
+  footer span {
+    color: gray;
+    margin: 0 10px; }
+  footer .footerlistBto a {
+    margin-top: 2px; }

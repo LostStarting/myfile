@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: white; }
+
+a {
+  text-decoration: none; }
+
+ul ol {
+  list-style: none; }
+
+header {
+  width: 100%;
+  height: 100px; }
+  header .logoImg {
+    float: left;
+    height: 100px; }
+  header .inputs {
+    height: 100px;
+    padding: 20px 150px;
+    float: left;
+    box-sizing: border-box; }
+    header .inputs .inclass {
+      height: 40px;
+      width: 500px;
+      margin-bottom: 10px; }
+      header .inputs .inclass .inOne {
+        outline: none;
+        height: 40px;
+        width: 380px;
+        border: 1px solid orangered;
+        vertical-align: middle; }
+      header .inputs .inclass .inTwo {
+        height: 42px;
+        width: 70px;
+        border: 1px solid orangered;
+        background: orangered;
+        font-size: 14px;
+        color: white;
+        vertical-align: middle; }
+    header .inputs p {
+      color: gray;
+      font-size: 14px; }
+      header .inputs p a {
+        margin: 0 5px;
+        color: gray;
+        font-size: 12px; }
+  header .checkma {
+    box-sizing: border-box;
+    padding-top: 3px;
+    height: 100px;
+    float: left; }
+    header .checkma img {
+      height: 100px; }
+
+section {
+  clear: both;
+  width: 100%;
+  position: relative; }
+  section .banner img {
+    width: 100%; }
+  section p {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    width: 250px;
+    position: absolute;
+    right: 75px;
+    top: 12px; }
+    section p span {
+      text-align: center; }
+  section img {
+    display: block; }
+
+.introduce {
+  width: 80%;
+  margin-top: 30px;
+  border-top: 1px dotted gainsboro;
+  box-sizing: border-box;
+  margin-left: 10%;
+  margin-right: 10%; }
+  .introduce p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    color: black;
+    border-bottom: 1px dotted gainsboro; }
+    .introduce p a {
+      font-size: 13px;
+      color: black; }
+    .introduce p .textOne {
+      margin-left: 5px;
+      height: 25px;
+      width: 200px;
+      border: 1px solid orangered;
+      vertical-align: middle; }
+    .introduce p .searchOne {
+      height: 27px;
+      border: none;
+      background: orangered;
+      vertical-align: middle;
+      width: 70px;
+      color: white; }
+    .introduce p span {
+      display: block;
+      float: right;
+      font-size: 14px;
+      color: darkgray; }
+  .introduce .titles {
+    padding: 0;
+    height: 40px;
+    line-height: 40px; }
+    .introduce .titles span {
+      display: block;
+      float: left;
+      height: 40px;
+      width: 200px;
+      background: lightgray;
+      text-align: center; }
+    .introduce .titles a {
+      display: block;
+      float: left;
+      margin: 0 40px; }
+
+.list {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  clear: both; }
+  .list .firstp {
+    margin: 20px 0;
+    background: #faf9f9;
+    padding: 4px;
+    font-size: 14px;
+    box-sizing: border-box; }
+    .list .firstp a {
+      float: left;
+      font-size: 12px;
+      outline: none;
+      color: black;
+      border: 1px solid #D3D3D3;
+      border-collapse: collapse;
+      padding: 8px;
+      color: grey; }
+  .list label {
+    margin-left: 30px; }
+  .list .price {
+    margin-left: -5px;
+    width: 70px;
+    height: 30px;
+    border: 1px solid #D3D3D3; }
+  .list .chek {
+    margin-left: 20px;
+    margin-top: 3px; }
+  .list .productlist {
+    width: 100%;
+    overflow: hidden; }
+    .list .productlist .prolist {
+      width: 100%; }
+      .list .productlist .prolist .alink {
+        margin: 0 1% 1%;
+        float: left;
+        width: 18%;
+        overflow: hidden;
+        border: 1px solid gainsboro;
+        box-sizing: border-box; }
+        .list .productlist .prolist .alink .ims {
+          width: 100%; }
+        .list .productlist .prolist .alink .charge {
+          background: white; }
+          .list .productlist .prolist .alink .charge span {
+            color: red;
+            font-size: 20px; }
+        .list .productlist .prolist .alink .sonlink {
+          display: block;
+          margin-top: 20px;
+          font-size: 12px;
+          color: darkgray; }
+        .list .productlist .prolist .alink .sonlinktwo {
+          display: block;
+          font-size: 14px;
+          color: red;
+          text-decoration: underline;
+          text-indent: 5px;
+          border-bottom: 1px solid gainsboro;
+          padding-bottom: 5px; }
+        .list .productlist .prolist .alink .lastp {
+          font-size: 12px;
+          color: darkgrey;
+          height: 22px;
+          margin-top: 5px; }
+          .list .productlist .prolist .alink .lastp span {
+            display: block;
+            float: left;
+            border-right: 1px solid gainsboro;
+            line-height: 15px;
+            box-sizing: border-box;
+            padding: 0 15px; }
+            .list .productlist .prolist .alink .lastp span b {
+              color: orange; }
+            .list .productlist .prolist .alink .lastp span strong {
+              color: cornflowerblue; }
+          .list .productlist .prolist .alink .lastp img {
+            height: 20px;
+            padding-left: 15px; }
+
+.Listnav {
+  width: 100%;
+  padding: 80px 130px;
+  box-sizing: border-box;
+  overflow: hidden; }
+  .Listnav a {
+    color: gray;
+    font-size: 12px; }
+  .Listnav .strongli {
+    font-weight: bold; }
+  .Listnav .sli {
+    margin-left: -190px; }
+  .Listnav ul {
+    list-style: none;
+    float: left;
+    margin-right: 100px; }
+    .Listnav ul li {
+      margin: 10px 0; }
+  .Listnav .Listnav_left {
+    height: 180px;
+    border-right: 1px solid darkgray;
+    float: left; }
+  .Listnav .Listnav_right {
+    height: 180px;
+    float: left;
+    margin-left: 60px; }
+    .Listnav .Listnav_right .imgone {
+      width: 30px;
+      margin-right: 80px;
+      height: 30px; }
+    .Listnav .Listnav_right .imgtwo {
+      width: 80px;
+      margin-right: 30px;
+      height: 80px;
+      display: none; }
+
+.lsnav {
+  background: #eee;
+  padding-bottom: 10px; }
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px; }
+  footer .footerlistTop a, footer .footerlistCen a {
+    color: black; }
+  footer .footerlistTop {
+    padding-top: 25px; }
+  footer .footerlistTop, footer .footerlistCen, footer .footerlistBto, footer p {
+    margin-bottom: 10px; }
+    footer .footerlistTop a, footer .footerlistCen a, footer .footerlistBto a, footer p a {
+      margin: 0 5px; }
+  footer span {
+    color: gray;
+    margin: 0 10px; }
+  footer .footerlistBto a {
+    margin-top: 2px; }

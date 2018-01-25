@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul ol{
+    list-style: none;
+}
+body{
+    background: #f8f8f8;
+}
+.allBox{
+    margin-left: 15%;
+    margin-right: 15%; 
+    border: 1px solid gainsboro;
+    background: white;
+}
+.logo{
+    width: 100%;
+    height: 106px;
+    border-bottom: 2px orange solid;
+    
+    a{
+      display: block;
+      float: left; 
+    }
+    
+    p{
+        text-align: center;
+        font-size: 18px;
+        float: left;
+        color: gray;
+        line-height: 105px; 
+        margin-left: 10px;
+    }
+    
+}
+section{
+    width: 100%;
+    background: white;
+    text-align: center;
+    padding: 100px 200px;
+    box-sizing: border-box;
+    
+    p span{
+        color: red;
+        display: none;
+    }
+   
+   .inputs{
+       width: 400px;
+       height: 40px;
+       border: 1px solid gainsboro;
+       margin: 25px 140px;
+       overflow: hidden;
+       position: relative;
+       
+       span{
+            color: red;
+           
+            line-height: 40px;
+            float: right;
+            margin-right: 15px;
+            display: none;
+       }
+       input{
+           border: none;
+           float: left;
+           margin-left: 20px;
+           line-height: 45px;
+           outline: none;
+      
+       }
+        #randoms{
+               height: 40px;
+               position: absolute;
+               right: -1px;
+               top:0;         
+           }
+       
+       label{
+           float: left;
+           font-size: 14px;
+           line-height: 40px;
+           margin-left: 10px;
+       }
+   }
+   .checkresult{
+       display: none;
+   }
+       #advtisment{
+           border: none;
+          text-align: center;
+           input{
+             margin-right: -34px;
+             margin-top: 8px;
+             border: none;
+             margin-left: 0px;      
+       }
+        a{
+            font-size: 10px;
+            display: block;
+            float: left;
+            margin-left: 15px;
+            margin-top: 7px;
+            color:gray;
+         }     
+       } 
+     
+   .lastinpt{
+       width: 400px;
+       height: 40px;
+       background: orange;
+       border: none;
+       color: white;
+       font-size: 18px;
+       margin-left: 10px;
+   }
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+  
+    
+    .footerlistTop,.footerlistCen{
+        a{
+              color: black;
+        }
+      
+    }
+    
+     
+   .footerlistTop,.footerlistCen,.footerlistBto,p{
+       margin-bottom: 10px;
+       
+       a{
+           margin:0 5px;
+       }
+   }
+   span{
+       color: gray;
+       margin: 0 10px;
+   }
+   
+   .footerlistBto{
+        a{
+       margin-top: 2px;
+     }
+   }
+  
+}
+

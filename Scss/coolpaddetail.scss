@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: white;
+}
+a{
+    text-decoration: none;
+}
+ul ol{
+    list-style: none;
+}
+header{
+    width: 100%;
+    height: 100px;
+    
+    .logoImg{
+        float: left;
+        height: 100px;
+      
+    }
+
+    .inputs{
+        height: 100px;
+        padding: 20px 150px;
+        float: left;box-sizing: border-box;
+        .inclass{
+            height: 40px;
+            width: 500px;
+            margin-bottom: 10px;
+            
+            .inOne{
+                outline: none;
+                height: 40px;
+                width: 380px;
+                border: 1px solid orangered;
+                vertical-align: middle;
+            }
+            .inTwo{
+                 height: 42px;
+                 width: 70px;
+                border: 1px solid orangered;
+                background: orangered;
+                font-size: 14px;
+                color: white;
+                vertical-align: middle;
+            }
+        }
+        p {
+             color:gray;
+             font-size: 14px;
+                a{
+                    margin:0 5px;
+                color:gray;
+                font-size: 12px;
+                }
+        }
+        
+    }
+    .checkma{
+        box-sizing: border-box;
+        padding-top: 3px;
+        height: 100px;
+        float: left;
+        img{
+            height: 100px;
+        }
+    }
+}
+section{
+    clear: both;
+    width: 100%;
+    position: relative;
+    
+    .banner img{
+        width: 100%;
+    }
+    
+    p{
+         text-align: center;
+        color: white;
+        font-size: 12px;
+        width: 250px;
+        position: absolute;
+        right:75px ;
+        top:12px;
+        span{
+            text-align: center;
+        }
+    }
+    img{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;  
+    .footerlistTop,.footerlistCen{
+        a{
+              color: black;
+        } 
+    }
+    .footerlistTop{
+        padding-top: 25px;
+    } 
+   .footerlistTop,.footerlistCen,.footerlistBto,p{
+       margin-bottom: 10px;
+       
+       a{
+           margin:0 5px;
+       }
+   }
+   span{
+       color: gray;
+       margin: 0 10px;
+   }
+   .footerlistBto{
+        a{
+       margin-top: 2px;
+     }
+   }
+  
+}
