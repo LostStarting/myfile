@@ -304,6 +304,29 @@
 				</div>
 			</div>
 		</footer>
-		
 	</body>
+<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="../js/register.js"></script>-->
+<script type="text/javascript" >
+var usernameExists = true;
+$(function () {
+    //用户名存在性验证
+     $.ajax({
+            url:"../php/getGoodsList.php",
+            method:"get",
+           // data:{"username":$("#phonetext").val()},
+            success:function (data) {
+                if(data=="0"){
+                	//alert("yes");
+                    usernameExists = false;
+                }else{
+                	alert(data);
+                    usernameExists = true;
+                    $("#existphone").css({"display":"block"});
+                }
+            }
+        });
+});
+
+</script>
 </html>
