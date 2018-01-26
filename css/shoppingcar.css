@@ -1,0 +1,175 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: white; }
+
+a {
+  text-decoration: none; }
+
+ul ol {
+  list-style: none; }
+
+header {
+  width: 100%;
+  height: 100px; }
+  header .logoImg {
+    float: left;
+    height: 100px; }
+  header .inputs {
+    height: 100px;
+    padding: 20px 150px;
+    float: left;
+    box-sizing: border-box; }
+    header .inputs .inclass {
+      height: 40px;
+      width: 500px;
+      margin-bottom: 10px; }
+      header .inputs .inclass .inOne {
+        outline: none;
+        height: 40px;
+        width: 380px;
+        border: 1px solid orangered;
+        vertical-align: middle; }
+      header .inputs .inclass .inTwo {
+        height: 42px;
+        width: 70px;
+        border: 1px solid orangered;
+        background: orangered;
+        font-size: 14px;
+        color: white;
+        vertical-align: middle; }
+    header .inputs p {
+      color: gray;
+      font-size: 14px; }
+      header .inputs p a {
+        margin: 0 5px;
+        color: gray;
+        font-size: 12px; }
+  header .checkma {
+    box-sizing: border-box;
+    padding-top: 3px;
+    height: 100px;
+    float: left; }
+    header .checkma img {
+      height: 100px; }
+
+section {
+  clear: both;
+  width: 100%;
+  position: relative; }
+  section .banner img {
+    width: 100%; }
+  section p {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    width: 250px;
+    position: absolute;
+    right: 75px;
+    top: 12px; }
+    section p span {
+      text-align: center; }
+  section img {
+    display: block; }
+
+.shoppingInfos {
+  clear: both;
+  width: 80%;
+  margin: 30px auto;
+  overflow: hidden;
+  padding-bottom: 50px; }
+  .shoppingInfos .uls {
+    overflow: hidden;
+    width: 100%;
+    list-style: none;
+    margin-bottom: 20px;
+    box-sizing: border-box; }
+    .shoppingInfos .uls li {
+      text-align: center;
+      box-sizing: border-box;
+      float: left;
+      width: 33.33%;
+      height: 50px;
+      line-height: 50px;
+      background: darkseagreen;
+      font-size: 26px;
+      font-family: "宋体"; }
+  .shoppingInfos .ptitle {
+    overflow: hidden;
+    margin-top: 60px;
+    border-bottom: 1px solid darkgray;
+    line-height: 50px; }
+    .shoppingInfos .ptitle a {
+      float: left;
+      color: black;
+      margin-right: 20px; }
+      .shoppingInfos .ptitle a span {
+        display: inline-block;
+        padding-right: 10px;
+        padding-left: 10px; }
+      .shoppingInfos .ptitle a b {
+        font-size: 16px;
+        color: black; }
+    .shoppingInfos .ptitle p {
+      height: 50px;
+      float: right;
+      font-size: 12px;
+      color: grey; }
+      .shoppingInfos .ptitle p span {
+        font-size: 14px;
+        margin-left: 2px;
+        color: orangered; }
+      .shoppingInfos .ptitle p #countMoney {
+        width: 55px;
+        height: 25px;
+        background: gray;
+        font-size: 14px;
+        color: white;
+        border: none;
+        margin-left: 10px;
+        border-radius: 5px; }
+  .shoppingInfos .checkAllp {
+    margin-top: 20px;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    color: gray; }
+    .shoppingInfos .checkAllp input {
+      border-radius: 0;
+      margin-right: 5px; }
+    .shoppingInfos .checkAllp .spanone {
+      margin-left: 180px; }
+    .shoppingInfos .checkAllp .spantwo {
+      margin-left: 290px; }
+    .shoppingInfos .checkAllp .spanthree {
+      margin-left: 140px; }
+    .shoppingInfos .checkAllp .spanfour {
+      margin-left: 140px; }
+    .shoppingInfos .checkAllp .spanfive {
+      margin-left: 140px; }
+  .shoppingInfos .allstore {
+    height: 20px;
+    background: pink; }
+
+footer {
+  text-align: center;
+  font-size: 12px; }
+  footer .Lastnav {
+    background: gainsboro; }
+    footer .Lastnav .footerlistTop a, footer .Lastnav .footerlistCen a {
+      color: black; }
+    footer .Lastnav .footerlistTop {
+      padding-top: 25px; }
+    footer .Lastnav .footerlistTop, footer .Lastnav .footerlistCen, footer .Lastnav .footerlistBto, footer .Lastnav p {
+      margin-bottom: 10px; }
+      footer .Lastnav .footerlistTop a, footer .Lastnav .footerlistCen a, footer .Lastnav .footerlistBto a, footer .Lastnav p a {
+        margin: 0 5px; }
+    footer .Lastnav span {
+      color: gray;
+      margin: 0 10px; }
+    footer .Lastnav .footerlistBto a {
+      margin-top: 2px; }
