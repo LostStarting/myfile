@@ -44,21 +44,60 @@
 				<a href="#"><b>全部商品</b><span>3</span></a>
 				<a href="#"><b>降价商品</b><span>3</span></a>
 				<a href="#"><b>库存紧张</b><span>3</span></a>
-				<object><p class="checkMoney">已选商品(不含运费)<span>0.00</span>
+				<object><p class="checkMoney">已选商品(不含运费)<span id="countmoney">0.00</span>
 				<input id="countMoney" type="button" value="结算"/>
 				</p></object>
 			</p>
 			<p class="checkAllp">
-				<input type="checkbox" name="" id="" value="" />全选
+				<input id="checkedAllId" type="checkbox" name="" id="" value="" />全选
 				<span class="spanone">商品信息</span>
 				<span class="spantwo">单价</span>
 				<span class="spanthree">数量</span>
 				<span class="spanfour">金额</span>
 				<span class="spanfive">操作</span>
 			</p>
-			<div class="allstore">
-				<p><input type="checkbox"/><img src="../Img/shoppingcarImgs/storeicon.png"/>店铺：<span>西安酷派自营店</span></p>
-			</div>		
+			<ul id="list">
+		    <li>	
+		    	<i><input class="input1" type="checkbox"/></i>
+	    		<img src="../Img/shoppingcarImgs/coolpad3.jpg">
+	    		<b class="b1">酷派大神F1钻石黑</b> 
+		        <b class="b2" id='danjiaone'>1890</b>
+		        <span>
+		        	<input class="btnred" type="button" id='red' value="-">
+			        <input id="acountone" type="text" value="0">
+			        <input class="btnadd" type="button" value="+" id='add'>
+		        </span>
+		        <strong class="b4" id='subtotal'>0</strong>
+		        <b class="b3"><i>删除</i><br/></b>
+		    </li>
+		    <li><i><input class="input1" type="checkbox"/></i>
+		    	<img src="../Img/shoppingcarImgs/coolpad2.jpg"><b class="b1">酷派note玫瑰金</b> 
+			        <b class="b2" id='danjiatwo'>1024</b>
+			        <span><input class="btnred" type="button" id='red' value="-">
+			        <input id="acounttwo" type="text" value="0">
+			        <input class="btnadd" type="button" value="+" id='add'></span>
+			        <strong class="b4" id='subtotal'>0</strong>
+			        <b class="b3"><i>删除</i><br/></b>
+		    </li>
+		    <li><i><input class="input1" type="checkbox"/></i>
+		    	<img src="../Img/shoppingcarImgs/coolpad5.jpg"><b class="b1">酷派X5水晶银</b> 
+			        <b class="b2" id='danjiathr'>1880</b>
+			        <span><input class="btnred" type="button" id='red' value="-">
+			        <input id="acountthr" type="text" value="0">
+			        <input class="btnadd" type="button" value="+" id='add'></span>
+			        <strong class="b4" id='subtotal'>0</strong>
+			        <b class="b3"><i>删除</i><br/></b>
+		    </li>
+		     <li><i><input class="input1" type="checkbox"/></i>
+		    	<img src="../Img/shoppingcarImgs/coolpad4.jpg"><b class="b1">酷派限量版精品黑</b> 
+			        <b class="b2" id='danjiafor'>1000</b>
+			        <span><input class="btnred" type="button" id='red' value="-">
+			        <input id="acountfor" type="text" value="0">
+			        <input class="btnadd" type="button" value="+" id='add'></span>
+			        <strong class="b4" id='subtotal'>0</strong>
+			        <b class="b3"><i>删除</i><br/></b>
+		    </li>
+		</ul>		
 		</div>
 		<footer>
 			<div class="Lastnav lsnav">
@@ -90,26 +129,12 @@
 		</footer>
 	</body>
 <script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="../js/register.js"></script>
+<script type="text/javascript" src="../js/shoppingcar.js"></script>
 <script type="text/javascript" >
 var usernameExists = true;
 $(function () {
-    //用户名存在性验证
-//   $.ajax({
-//          url:"../php/getGoodsList.php",
-//          method:"get",
-//         // data:{"username":$("#phonetext").val()},
-//          success:function (data) {
-//              if(data=="0"){
-//              	//alert("yes");
-//                  usernameExists = false;
-//              }else{
-//              	alert(data);
-//                  usernameExists = true;
-//                  $("#existphone").css({"display":"block"});
-//              }
-//          }
-//      });
+    
+   
 });
 
 </script>

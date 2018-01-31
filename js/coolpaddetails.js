@@ -56,8 +56,21 @@
 		});
 		
 	}	 
-		 
-		 
+	var sum = $("#acount").val();
+	$("#add").click(function(){
+			sum++;
+			if(sum>=10){
+				sum=10;
+			}
+			$("#acount").val(sum);
+		});
+	$("#reduce").click(function(){
+		sum--;
+		if(sum<=0){
+			sum=0;
+		}
+		$("#acount").val(sum);
+	});	 
 		 
 });
     

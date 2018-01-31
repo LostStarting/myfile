@@ -154,6 +154,49 @@ section {
   .shoppingInfos .allstore {
     height: 20px;
     background: pink; }
+  .shoppingInfos #list li {
+    list-style: none;
+    position: relative;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 20px; }
+    .shoppingInfos #list li img {
+      width: 81px;
+      height: 100px;
+      margin-left: 160px;
+      margin-bottom: 10px; }
+    .shoppingInfos #list li .input1 {
+      position: absolute;
+      left: 0;
+      top: 45px; }
+    .shoppingInfos #list li .b1 {
+      position: absolute;
+      left: 260px;
+      top: 35px; }
+    .shoppingInfos #list li span {
+      position: absolute;
+      left: 730px;
+      top: 35px; }
+      .shoppingInfos #list li span input {
+        width: 20px;
+        height: 20px; }
+      .shoppingInfos #list li span #acount {
+        text-align: center; }
+    .shoppingInfos #list li .b2 {
+      position: absolute;
+      left: 560px;
+      top: 35px; }
+    .shoppingInfos #list li .b3 {
+      position: absolute;
+      left: 1095px;
+      top: 35px;
+      font-weight: 100; }
+      .shoppingInfos #list li .b3 i {
+        font-style: normal;
+        color: red; }
+    .shoppingInfos #list li .b4 {
+      position: absolute;
+      left: 915px;
+      top: 35px; }
 
 footer {
   text-align: center;
